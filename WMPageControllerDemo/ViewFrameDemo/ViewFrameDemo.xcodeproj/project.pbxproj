@@ -20,6 +20,12 @@
 		4DD02A5F1D46674E00BCA5F1 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD02A561D46674E00BCA5F1 /* WMProgressView.m */; };
 		4DD02A601D46674E00BCA5F1 /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD02A581D46674E00BCA5F1 /* WMScrollView.m */; };
 		4DD02A611D46674E00BCA5F1 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD02A5B1D46674E00BCA5F1 /* WMPageController.m */; };
+		90023D441D646A27008CB501 /* ParentClassScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90023D431D646A27008CB501 /* ParentClassScrollViewController.m */; };
+		90023D471D646A30008CB501 /* MainTouchTableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90023D461D646A30008CB501 /* MainTouchTableTableView.m */; };
+		90023D4A1D646A6D008CB501 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90023D491D646A6D008CB501 /* MainViewController.m */; };
+		90023D4D1D646A86008CB501 /* WMCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90023D4C1D646A86008CB501 /* WMCollectionViewController.m */; };
+		90023D501D646C57008CB501 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90023D4E1D646C57008CB501 /* bg.jpg */; };
+		90023D511D646C57008CB501 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90023D4F1D646C57008CB501 /* avatar.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +50,10 @@
 		4DD02A221D46648400BCA5F1 /* ViewFrameDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewFrameDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD02A261D46648400BCA5F1 /* ViewFrameDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewFrameDemoUITests.m; sourceTree = "<group>"; };
 		4DD02A281D46648400BCA5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DD02A471D4664CE00BCA5F1 /* WMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMHomeViewController.h; sourceTree = "<group>"; };
-		4DD02A481D4664CE00BCA5F1 /* WMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMHomeViewController.m; sourceTree = "<group>"; };
-		4DD02A491D4664CE00BCA5F1 /* WMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTableViewController.h; sourceTree = "<group>"; };
-		4DD02A4A1D4664CE00BCA5F1 /* WMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTableViewController.m; sourceTree = "<group>"; };
+		4DD02A471D4664CE00BCA5F1 /* WMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMHomeViewController.h; path = Controllers/WMHomeViewController.h; sourceTree = "<group>"; };
+		4DD02A481D4664CE00BCA5F1 /* WMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMHomeViewController.m; path = Controllers/WMHomeViewController.m; sourceTree = "<group>"; };
+		4DD02A491D4664CE00BCA5F1 /* WMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMTableViewController.h; path = Controllers/WMTableViewController.h; sourceTree = "<group>"; };
+		4DD02A4A1D4664CE00BCA5F1 /* WMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMTableViewController.m; path = Controllers/WMTableViewController.m; sourceTree = "<group>"; };
 		4DD02A511D46674E00BCA5F1 /* WMMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuItem.h; sourceTree = "<group>"; };
 		4DD02A521D46674E00BCA5F1 /* WMMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuItem.m; sourceTree = "<group>"; };
 		4DD02A531D46674E00BCA5F1 /* WMMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuView.h; sourceTree = "<group>"; };
@@ -59,6 +65,16 @@
 		4DD02A591D46674E00BCA5F1 /* WMPageConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageConst.h; sourceTree = "<group>"; };
 		4DD02A5A1D46674E00BCA5F1 /* WMPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageController.h; sourceTree = "<group>"; };
 		4DD02A5B1D46674E00BCA5F1 /* WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
+		90023D421D646A27008CB501 /* ParentClassScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentClassScrollViewController.h; sourceTree = "<group>"; };
+		90023D431D646A27008CB501 /* ParentClassScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentClassScrollViewController.m; sourceTree = "<group>"; };
+		90023D451D646A30008CB501 /* MainTouchTableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTouchTableTableView.h; sourceTree = "<group>"; };
+		90023D461D646A30008CB501 /* MainTouchTableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTouchTableTableView.m; sourceTree = "<group>"; };
+		90023D481D646A6D008CB501 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		90023D491D646A6D008CB501 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		90023D4B1D646A86008CB501 /* WMCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCollectionViewController.h; sourceTree = "<group>"; };
+		90023D4C1D646A86008CB501 /* WMCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCollectionViewController.m; sourceTree = "<group>"; };
+		90023D4E1D646C57008CB501 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		90023D4F1D646C57008CB501 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +120,10 @@
 				4DD02A461D4664CE00BCA5F1 /* Controllers */,
 				4DD02A0F1D46648400BCA5F1 /* AppDelegate.h */,
 				4DD02A101D46648400BCA5F1 /* AppDelegate.m */,
+				4DD02A471D4664CE00BCA5F1 /* WMHomeViewController.h */,
+				4DD02A481D4664CE00BCA5F1 /* WMHomeViewController.m */,
+				4DD02A491D4664CE00BCA5F1 /* WMTableViewController.h */,
+				4DD02A4A1D4664CE00BCA5F1 /* WMTableViewController.m */,
 				4DD02A151D46648400BCA5F1 /* Main.storyboard */,
 				4DD02A181D46648400BCA5F1 /* Assets.xcassets */,
 				4DD02A1A1D46648400BCA5F1 /* LaunchScreen.storyboard */,
@@ -133,10 +153,16 @@
 		4DD02A461D4664CE00BCA5F1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4DD02A471D4664CE00BCA5F1 /* WMHomeViewController.h */,
-				4DD02A481D4664CE00BCA5F1 /* WMHomeViewController.m */,
-				4DD02A491D4664CE00BCA5F1 /* WMTableViewController.h */,
-				4DD02A4A1D4664CE00BCA5F1 /* WMTableViewController.m */,
+				90023D4E1D646C57008CB501 /* bg.jpg */,
+				90023D4F1D646C57008CB501 /* avatar.jpg */,
+				90023D451D646A30008CB501 /* MainTouchTableTableView.h */,
+				90023D461D646A30008CB501 /* MainTouchTableTableView.m */,
+				90023D481D646A6D008CB501 /* MainViewController.h */,
+				90023D491D646A6D008CB501 /* MainViewController.m */,
+				90023D421D646A27008CB501 /* ParentClassScrollViewController.h */,
+				90023D431D646A27008CB501 /* ParentClassScrollViewController.m */,
+				90023D4B1D646A86008CB501 /* WMCollectionViewController.h */,
+				90023D4C1D646A86008CB501 /* WMCollectionViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -250,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DD02A1C1D46648400BCA5F1 /* LaunchScreen.storyboard in Resources */,
+				90023D511D646C57008CB501 /* avatar.jpg in Resources */,
 				4DD02A191D46648400BCA5F1 /* Assets.xcassets in Resources */,
+				90023D501D646C57008CB501 /* bg.jpg in Resources */,
 				4DD02A171D46648400BCA5F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,9 +299,13 @@
 			files = (
 				4DD02A111D46648400BCA5F1 /* AppDelegate.m in Sources */,
 				4DD02A4B1D4664CE00BCA5F1 /* WMHomeViewController.m in Sources */,
+				90023D471D646A30008CB501 /* MainTouchTableTableView.m in Sources */,
 				4DD02A4C1D4664CE00BCA5F1 /* WMTableViewController.m in Sources */,
 				4DD02A5E1D46674E00BCA5F1 /* WMMenuView.m in Sources */,
+				90023D4D1D646A86008CB501 /* WMCollectionViewController.m in Sources */,
+				90023D441D646A27008CB501 /* ParentClassScrollViewController.m in Sources */,
 				4DD02A0E1D46648400BCA5F1 /* main.m in Sources */,
+				90023D4A1D646A6D008CB501 /* MainViewController.m in Sources */,
 				4DD02A611D46674E00BCA5F1 /* WMPageController.m in Sources */,
 				4DD02A5D1D46674E00BCA5F1 /* WMMenuItem.m in Sources */,
 				4DD02A601D46674E00BCA5F1 /* WMScrollView.m in Sources */,
